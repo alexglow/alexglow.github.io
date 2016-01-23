@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googlemainapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,31 +21,41 @@
 	
     <!-- Javascript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	
+	<script>
+		$(window).on("load",function() {
+			$("#persephone").hide();
+			$("#dreamworld").hide();
+			$("#default").hide();
+			$("#wake").hide();
+		};
+	</script>
+	
 	<script>
 	$(document).ready(function(){
 	    $("#showper").click(function(){
 			$("#dreamworld").hide();
 			$("#default").hide();
 			$("#wake").hide();
-			$("#persephone").show();
+			$("#persephone").fadeIn(500);
 	    });
 	    $("#showdre").click(function(){
 			$("#persephone").hide();
 			$("#default").hide();
 			$("#wake").hide();
-			$("#dreamworld").show();
+			$("#dreamworld").fadeIn(500);
 	    });
 	    $("#showdef").click(function(){
 			$("#dreamworld").hide();
 			$("#persephone").hide();
 			$("#wake").hide();
-			$("#default").show();
+			$("#default").fadeIn(500);
 	    });
 	    $("#showake").click(function(){
 			$("#dreamworld").hide();
 			$("#default").hide();
 			$("#persephone").hide();
-			$("#wake").show();
+			$("#wake").fadeIn(500);
 	    });
 	});
 	</script>
@@ -61,32 +71,32 @@
 
         <div class="mainpage">
           <h1 align=center class="page-header">the wake book</h1>
-
+		  
           <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
 			  <a id="showper" href="#">
-              <img src="resources/fool.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <img src="resources/fool.jpg" width="250" height="250" class="img-responsive" alt="Generic placeholder thumbnail">
               <h4><strong>book one</strong></h4>
               <span class="text-muted">PERSEPHONE</span>
 		      </a>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
 			  <a id="showdre" href="#">
-              <img src="resources/snail.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <img src="resources/snail.jpg" width="250" height="250" class="img-responsive" alt="Generic placeholder thumbnail">
               <h4><strong>book two</strong></h4>
               <span class="text-muted">THE DREAMWORLD GANG</span>
 		      </a>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
 			  <a id="showdef" href="#">
-              <img src="resources/caliban.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <img src="resources/caliban.jpg" width="250" height="250" class="img-responsive" alt="Generic placeholder thumbnail">
               <h4><strong>book three</strong></h4>
               <span class="text-muted">DEFAULT WORLD</span>
 		      </a>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
 			  <a id="showake" href="#">
-              <img src="resources/skully.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <img src="resources/skully.jpg" width="250" height="250" class="img-responsive" alt="Generic placeholder thumbnail">
               <h4><strong>book four</strong></h4>
               <span class="text-muted">WAKE</span>
 		      </a>

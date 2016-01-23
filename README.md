@@ -1,2 +1,2 @@
 # alexglow.github.io
-the wake book: an interactive novella
+the wake book: a synesthetic novella
