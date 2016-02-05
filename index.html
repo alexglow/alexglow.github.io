@@ -59,6 +59,12 @@
 	    });
 	});
 	</script>
+	
+	<script>
+	$(document).ready(function(){
+	    $('[data-toggle="tooltip"]').tooltip(); 
+	});
+	</script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -103,28 +109,47 @@
             </div>
           </div>
 		  
-		  <div id="persephone">
+		  <div id="persephone" class="noload">
 			<h3>Persephone</h3>
+			<!--
+			<p> <span class="chapter">teal chapter</span> • <span class="epigraph">darkcyan epigraph</span> • <span class="dream">cadetblue dream</span> • <span class="track">darkgrey track</span> • <span class="nextthing">lightsteelblue nextthing</span> • <span class="test1">mediumaquamarine test1</span> • <span class="test2">cornflowerblue test2</span></p>
+			-->
+				
+			<!-- Chapter structure:
+			<p><span class="chapter" data-toggle="tooltip" title="chapter"><a href="https://dl.dropboxusercontent.com/u/1380621/the-wake-book/book-one.html#persephone" target="_blank"> </a></span> • <span class="epigraph" data-toggle="tooltip" title="epigraph"><a href="" target="_blank"> </a></span> • <span class="dream" data-toggle="tooltip" title="source dream"><a href="" target="_blank"> </a></span> • <span class="sidebar" data-toggle="tooltip" title="sidebar"><a href="" target="_blank"> </a></span> • <span class="track" data-toggle="tooltip" title="♬"><a href="" target="_blank"> </a></span></p>
+			-->
+				
+			<!-- Converting chapters: use https://docs.google.com/spreadsheets/d/19b8qI2gc0R3Ye6MkpaApFjKDAjwaARVRUDSa4doz76s/edit#gid=0 and then paste and remove "	" -->
+			
+			<p><span class="chapter" data-toggle="tooltip" title="chapter"><a href="https://dl.dropboxusercontent.com/u/1380621/the-wake-book/book-one.html#drones" target="_blank">Drones</a></span> • <span class="dream" data-toggle="tooltip" title="source dream"><a href="" target="_blank">drones</a></span> • <span class="track" data-toggle="tooltip" title="♬"><a href="https://www.youtube.com/watch?v=59g5R8rwqpY" target="_blank">the beginning is the end is the beginning</a></span></p>
+			
+			<p><span class="chapter" data-toggle="tooltip" title="chapter"><a href="https://dl.dropboxusercontent.com/u/1380621/the-wake-book/book-one.html#persephone" target="_blank">Persephone</a></span> • <span class="epigraph" data-toggle="tooltip" title="epigraph"><a href="http://the-wake-book.tumblr.com/post/138460737429/scented-rushes" target="_blank">scented rushes</a></span></p>
+			
+			<p><span class="chapter" data-toggle="tooltip" title="chapter"><a href="https://dl.dropboxusercontent.com/u/1380621/the-wake-book/book-one.html#wingless" target="_blank">Even the Wingless</a></span> • <span class="dream" data-toggle="tooltip" title="source dream"><a href="" target="_blank">lucid tower</a></span> • <span class="sidenote" data-toggle="tooltip" title="sidenote"><a href="http://www.alexglow.com/dream-tarot/" target="_blank">dream tarot</a></span></p>
+			
 		  </div>
 		  
 		  
 		  
-		  <div id="dreamworld">
+		  <div id="dreamworld" class="noload">
 			<h3>The Dreamworld Gang</h3>
+			
 		  </div>
 		  
 		  
 		  
 		  
-		  <div id="default">
+		  <div id="default" class="noload">
 			<h3>Default World</h3>
+					
 		  </div>
 		  
 		  
 		  
 		  
-		  <div id="wake">
+		  <div id="wake" class="noload">
 		  	<h3>Wake</h3>
+				
 		  </div>
 
 

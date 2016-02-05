@@ -111,23 +111,24 @@ a {
  * Content types
  */
 .chapter {
-	color: Teal;
+	/*color: Teal;*/
+	font-weight: bold;
 }
 .epigraph {
-	color: DarkCyan;
+	/*color: DarkCyan;*/
 }
 .dream {
-	color: CadetBlue;
+	/*color: CadetBlue;*/
 }
 .track {
-	color: DarkGrey;
+	/*color: DarkGrey;*/
 }
-.nextthing {
-	color: LightSteelBlue;
+.sidenote {
+	/*color: LightSteelBlue;*/
 }
 .test1 {
-	color: MediumAquaMarine;
+	/*color: MediumAquaMarine;*/
 }
 .test2 {
-	color: CornflowerBlue;
+	/*color: CornflowerBlue;*/
 }
