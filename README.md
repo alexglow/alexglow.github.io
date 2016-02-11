@@ -1,2 +1,2 @@
 # the wake book
-a synesthetic novella
+an immersive novella
