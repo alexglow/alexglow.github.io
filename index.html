@@ -16,9 +16,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+	
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
+    <link href="css/sticky-footer.css" rel="stylesheet">
 	
     <!-- Javascript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -35,24 +36,28 @@
 	<script>
 	$(document).ready(function(){
 	    $("#showper").click(function(){
+			/* $("#frontis").hide(); */
 			$("#dreamworld").hide();
 			$("#default").hide();
 			$("#wake").hide();
 			$("#persephone").fadeIn(500);
 	    });
 	    $("#showdre").click(function(){
+			$("#frontis").hide();
 			$("#persephone").hide();
 			$("#default").hide();
 			$("#wake").hide();
 			$("#dreamworld").fadeIn(500);
 	    });
 	    $("#showdef").click(function(){
+			$("#frontis").hide();
 			$("#dreamworld").hide();
 			$("#persephone").hide();
 			$("#wake").hide();
 			$("#default").fadeIn(500);
 	    });
 	    $("#showake").click(function(){
+			$("#frontis").hide();
 			$("#dreamworld").hide();
 			$("#default").hide();
 			$("#persephone").hide();
@@ -75,10 +80,10 @@
   </head>
 
   <body>
-
         <div class="mainpage">
           <h1 align=center class="page-header">...wake...</h1>
-		  <h4 align=center class="text-muted">an immersive novella</h4>
+		  <h4 align=center class="text-muted">the immersive novella</h4>
+		  <br />
 		  
           <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
@@ -161,8 +166,14 @@
 		  	<h3><a href="https://dl.dropboxusercontent.com/u/1380621/the-wake-book/fourth.html">Wake</a></h3>
 				
 		  </div>
+		  
+		  
+		  <div id="frontis" align="center" class="footme">
+			  <h4 class="text-muted">glowaski, a.g.e</h4>
+			  <p class="text-muted">don't fade away</p>
+		  </div>
 
-
+	</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -174,6 +185,8 @@
     <script src="js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+	
 	<!-- http://www.oldbookillustrations.com/titles/quarles-emblems/ -->
+
   </body>
 </html>

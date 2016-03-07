@@ -3,6 +3,7 @@
  */
 
 /* Move down content because we have a fixed navbar that is 50px tall */
+
 body {
   margin-top: 40px;
   margin-bottom: 60px;
@@ -12,7 +13,6 @@ body {
 a {
 	color: inherit !important;
 }
-
 
 /*
  * Global add-ons
@@ -106,6 +106,10 @@ a {
 .placeholder img {
   display: inline-block;
   border-radius: 50%;
+}
+
+.footme {
+	padding-top: 6em;
 }
 
 /*
