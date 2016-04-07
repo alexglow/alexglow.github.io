@@ -1,2 +1,4 @@
 # the wake book
-an immersive novella
+a synesthetic novella
+
+read at [tomorrow.blue](http://tomorrow.blue)
